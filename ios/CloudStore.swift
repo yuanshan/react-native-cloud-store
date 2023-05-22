@@ -647,11 +647,11 @@ extension CloudStoreModule {
 
         let originalICloudURL = URL(fileURLWithPath: path)
 
-        let exists = FileManager.default.fileExists(atPath: originalICloudURL.path);
-        if !exists {
-            reject("ERR_NOT_EXIST", "file/folder of \(originalICloudURL.path) not exists", NSError(domain: "", code: 0));
-            return;
-        }
+        // let exists = FileManager.default.fileExists(atPath: originalICloudURL.path);
+        // if !exists {
+        //     reject("ERR_NOT_EXIST", "file/folder of \(originalICloudURL.path) not exists", NSError(domain: "", code: 0));
+        //     return;
+        // }
 
         let iCloudURL = URL(fileURLWithPath: pathWithoutDot)
         do {

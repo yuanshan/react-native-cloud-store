@@ -1,6 +1,6 @@
 {
-  "name": "react-native-cloud-store",
-  "version": "0.10.3-alpha.1",
+  "name": "react-native-cloud-store-go",
+  "version": "0.10.3",
   "description": "A react-native module for cloud operation",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -35,13 +35,13 @@
     "android",
     "icloud"
   ],
-  "repository": "https://github.com/XHMM/react-native-cloud-store",
+  "repository": "https://github.com/yuanshan/react-native-cloud-store",
   "author": "xhmm <super.xhmm@gmail.com> (https://github.com/XHMM)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/XHMM/react-native-cloud-store/issues"
+    "url": "https://github.com/yuanshan/react-native-cloud-store/issues"
   },
-  "homepage": "https://github.com/XHMM/react-native-cloud-store#readme",
+  "homepage": "https://github.com/yuanshan/react-native-cloud-store#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
