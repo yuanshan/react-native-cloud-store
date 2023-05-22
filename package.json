@@ -23,12 +23,6 @@
     "!**/__fixtures__",
     "!**/__mocks__"
   ],
-  "scripts": {
-    "test": "jest",
-    "typescript": "tsc --noEmit",
-    "lint": "eslint \"src/**/*.{js,ts,tsx}\"",
-    "prepare": "bob build"
-  },
   "keywords": [
     "react-native",
     "ios",
